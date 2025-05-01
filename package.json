@@ -3,20 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.ts",
-  "homepage": "https://github.com/TimurCherin/typescript-hw1/",
   "scripts": {
     "start": "lite-server",
     "build": "tsc",
-    "watch": "tsc -w",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "lint:js": "eslint src/**/*.{js,jsx}"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "watch": "tsc -w"
   },
   "keywords": [],
   "author": "",
