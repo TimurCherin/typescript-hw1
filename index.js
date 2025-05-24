@@ -55,6 +55,7 @@ var page1 = {
         updateAt: new Date('2021-05-01'),
     }
 };
+console.log(page1)
 var page2 = {
     title: 'Python or Js',
     likes: 5,

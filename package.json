@@ -23,5 +23,8 @@
     "lite-server": "^2.6.1",
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.31.1"
+  },
+  "dependencies": {
+    "netlify-cli": "^21.5.0"
   }
 }
