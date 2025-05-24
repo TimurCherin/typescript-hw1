@@ -1,40 +1,39 @@
-"use strict";
 // task 1
-let age = 50;
-let userName = 'Max';
-let toggle = true;
-let empty = null;
-let notInitialize = undefined;
-let callback = (a) => { return 100 + a; };
+var age = 50;
+var userName = 'Max';
+var toggle = true;
+var empty = null;
+var notInitialize = undefined;
+var callback = function (a) { return 100 + a; };
 // task 2
-let anything;
+var anything;
 anything = -20;
 anything = 'Text';
 anything = {};
 // task 3
-let some;
+var some;
 some = 'Text';
-let str;
+var str;
 if (typeof some === 'string') {
     str = some;
 }
 // task 4
-let person = ['Max', 21];
+var person = ['Max', 21];
 // task 5
 var LoadStatus;
 (function (LoadStatus) {
     LoadStatus[LoadStatus["LOADING"] = 0] = "LOADING";
     LoadStatus[LoadStatus["READY"] = 1] = "READY";
 })(LoadStatus || (LoadStatus = {}));
-const loaded = {
+var loaded = {
     status: LoadStatus.READY
 };
 // task 6
-let strNum;
+var strNum;
 strNum = 'Hello';
 strNum = 123;
 // task 7
-let enableDisable;
+var enableDisable;
 enableDisable = 'enable';
 // task 8
 function showMessage(message) {
@@ -46,7 +45,7 @@ function calc(num1, num2) {
 function customError() {
     throw new Error('Error');
 }
-const page1 = {
+var page1 = {
     title: 'The awesome page',
     likes: 100,
     accounts: ['Max', 'Anton', 'Nikita'],
@@ -56,7 +55,7 @@ const page1 = {
         updateAt: new Date('2021-05-01'),
     }
 };
-const page2 = {
+var page2 = {
     title: 'Python or Js',
     likes: 5,
     accounts: ['Alex'],
